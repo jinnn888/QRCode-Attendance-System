@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        hr.dotted {
+            border-top: 3px dotted #bbb;
+            width: 100%;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+        }
+
+        img {
+            border-radius: 100%;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-text {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="header">
+                <img src="https://placehold.co/90x90" width="90" />
+                <h3 class="header-text">Lourdes College</h3>
+            </div>
+
+            <hr class="dotted">
+
+            <div style="text-align: center;">
+                <h4>ATTENDANCE</h4>
+                <p>December 4, 2025</p>
+                <p>1:50 AM</p>
+            </div>
+
+            <div style="text-align:start; align-self:flex-start;font-weight: bold;">
+                <p>Strand & Section: </p>
+                <p>Beadle: </p>
+            </div>
+
+
+
+            <div class="table_component" role="region" tabindex="0">
+                <table>
+                    <caption>
+                        <p>ATTENDANCE</p>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>ID Number</th>
+                            <th>Check-In</th>
+                            <th>Check-Out</th>
+                            <th>LOG DAY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
